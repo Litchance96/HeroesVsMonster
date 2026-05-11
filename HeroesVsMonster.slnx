@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="HeroesVsMonster/HeroesVsMonster.csproj" />
+  <Project Path="Models/Models.csproj" />
+</Solution>
