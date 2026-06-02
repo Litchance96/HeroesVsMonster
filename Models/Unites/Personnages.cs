@@ -16,10 +16,22 @@ namespace Models.Unites
      */
     public class Personnage
     {
+        private int _ForceBase = 10;
         public string? Nom; //{ get(recuperation); set(écriture dedans); } // Propriété auto-implémentée pour le nom du personnage
-        public int Force { get; private set; } = 10;
-        public int Endurance { get; private set; } = 10;
+        public virtual int Force 
+        { 
+            get 
+            { 
+                return _ForceBase; //return base.Force + 2; quand on voudra modifier a nos monstres et héros
+            } 
+            private set; 
+        } 
+        public virtual int Endurance { get; private set; } = 10;
         public int PV { get; private set; } = 20;
+
+        public virtual int Bonus { get; set;  }
+
+        public virtual int Malus { get; set; }
         public bool EstEnVie
         {
             get
@@ -28,7 +40,7 @@ namespace Models.Unites
             }
         }
 
-        public void Frappe(Personnage cible)
+        public virtual void Frappe(Personnage cible)
         {
             //Lancer un dé (à quatre faces)pour déterminer les dégâts infligés (retirer des PV) à la cible
 
@@ -40,7 +52,7 @@ namespace Models.Unites
 
         }
 
-        public void SubitDegats(int degats)
+        public virtual void SubitDegats(int degats)
         {
             //PV -= degats; // Retirer les dégâts des PV du personnage MAIS en infligeant on additionne donc ca fera - - = + (si on arrive à des dégats négatifs) donc on doit additionner au lieu de soustraire
             if (degats >= 0)
@@ -51,7 +63,10 @@ namespace Models.Unites
             //TODO error a gérer (ce qu'on verra plus tard)
         }
 
+
+
     }
+
 }
 
 

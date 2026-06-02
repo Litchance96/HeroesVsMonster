@@ -34,9 +34,16 @@ namespace HeroesvsMonster
             {
                 Console.WriteLine("Bobi est mort !");
             }
+            
+            Console.WriteLine("Bobibi a maintenant " + bobi.PV + " points de vie.");
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
 
             //Création de monde
-            
+
             Plateau monde = new Plateau();
             monde[5, 5] = "|d|";
             monde[6, Plateau.TAILLE - 1] = "|s|"; //--> si on veut aller à la derniere case de la ligne, on peut faire TAILLE - 1 car les indices commencent à 0
