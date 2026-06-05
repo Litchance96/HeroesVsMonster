@@ -17,7 +17,8 @@ namespace Models.Unites
     public class Personnage
     {
         private int _ForceBase = 10;
-        public string? Nom; //{ get(recuperation); set(écriture dedans); } // Propriété auto-implémentée pour le nom du personnage
+        private int _EnduranceBase = 10;
+         //{ get(recuperation); set(écriture dedans); } // Propriété auto-implémentée pour le nom du personnage
         public virtual int Force 
         { 
             get 
@@ -26,12 +27,16 @@ namespace Models.Unites
             } 
             private set; 
         } 
-        public virtual int Endurance { get; private set; } = 10;
-        public int PV { get; private set; } = 20;
+        public virtual int Endurance 
+        { get
+            {
+                return _EnduranceBase;
+            } 
+        private set; 
+        }
+        public int PV { get; protected set; } = 20;
 
-        public virtual int Bonus { get; set;  }
 
-        public virtual int Malus { get; set; }
         public bool EstEnVie
         {
             get
@@ -42,27 +47,49 @@ namespace Models.Unites
 
         public virtual void Frappe(Personnage cible)
         {
-            //Lancer un dé (à quatre faces)pour déterminer les dégâts infligés (retirer des PV) à la cible
+            //Lancer un dé (à quatre faces)pour déterminer les dégâts infligés (retirer des PV) à la cible.
 
-            De de = new De(); // Création d'un dé à 4 faces
-            de.Max = 4;      // Définition du nombre de faces du dé
+            De de = new De(); // Création d'un dé à 4 faces.
+            de.Max = 4;      // Définition du nombre de faces du dé.
 
-            int degats = de.Lancer(); // Lancer le dé pour obtenir les dégâts
-            cible.PV -= degats;      // Retirer les dégâts des PV de la cible
+            // Lancer le dé pour obtenir les dégâts -----> "this" pour preciser que cest la force de celui qui va frapper.
+            int degats = de.Lancer() + CalculBonus(this.Force);
+
+            // Retirer les dégâts des PV de la cible.
+            cible.SubitDegats(degats);      
+
+
 
         }
 
         public virtual void SubitDegats(int degats)
         {
-            //PV -= degats; // Retirer les dégâts des PV du personnage MAIS en infligeant on additionne donc ca fera - - = + (si on arrive à des dégats négatifs) donc on doit additionner au lieu de soustraire
-            if (degats >= 0)
+            //PV -= degats; // Retirer les dégâts des PV du personnage MAIS en infligeant on additionne donc ca fera - - = + (si on arrive à des dégats négatifs) donc on doit additionner au lieu de soustraire.
+         
+            //On verifie si les dégats sont positifs et si les dégats - le bonus sont positifs aussi pour ne pas rajouter des PV à notre personnage.
+
+            int bonus = CalculBonus(Endurance);
+            if (degats >= 0 && degats - bonus >=0)
             {
-                PV -= degats; // Retirer les dégâts des PV du personnage
+
+                // Retirer les dégâts des PV du personnage - Endurance, il subira moins s'il est plus endurant.
+                PV -= degats - CalculBonus(Endurance); 
             }
 
             //TODO error a gérer (ce qu'on verra plus tard)
         }
 
+        public  int CalculBonus(int stat)
+        {
+            if (stat < 10)
+            { return -1; }
+            else if (stat == 10)
+            { return 0; }
+            else if (stat > 10 && stat < 13)
+            { return 1; }
+            else
+            { return 2; }
+        }
 
 
     }
