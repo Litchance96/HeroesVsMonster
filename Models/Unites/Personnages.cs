@@ -16,15 +16,15 @@ namespace Models.Unites
      */
     public class Personnage
     {
-        private int _ForceBase = 10;
+        public int _ForceBase = 10;
         private int _EnduranceBase = 10;
          //{ get(recuperation); set(écriture dedans); } // Propriété auto-implémentée pour le nom du personnage
         public virtual int Force 
-        { 
-            get 
-            { 
+        {
+            get
+            {
                 return _ForceBase; //return base.Force + 2; quand on voudra modifier a nos monstres et héros
-            } 
+            }
             private set; 
         } 
         public virtual int Endurance 
@@ -49,8 +49,8 @@ namespace Models.Unites
         {
             //Lancer un dé (à quatre faces)pour déterminer les dégâts infligés (retirer des PV) à la cible.
 
-            De de = new De(); // Création d'un dé à 4 faces.
-            de.Max = 4;      // Définition du nombre de faces du dé.
+            De de = new De(4); // Création d'un dé à 4 faces.
+                // Définition du nombre de faces du dé.
 
             // Lancer le dé pour obtenir les dégâts -----> "this" pour preciser que cest la force de celui qui va frapper.
             int degats = de.Lancer() + CalculBonus(this.Force);
@@ -79,7 +79,7 @@ namespace Models.Unites
             //TODO error a gérer (ce qu'on verra plus tard)
         }
 
-        public  int CalculBonus(int stat)
+        protected  int CalculBonus(int stat)
         {
             if (stat < 10)
             { return -1; }

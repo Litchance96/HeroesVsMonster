@@ -27,6 +27,10 @@ namespace Models.Unites.Monstres
         {
             get
             {
+                int tempsEndurance = base.Endurance - 2;
+                return (tempsEndurance <1) ?  tempsEndurance :  1 ;
+
+                //Autre facon
                 if (base.Endurance - 2 >= 1)
                 {
                     return base.Endurance - 2;
@@ -50,11 +54,11 @@ namespace Models.Unites.Monstres
             if (PV < 5)
             {
                 Console.WriteLine("Le bandit tente de prendre une potion");
-                De De100 = new();
-                De100.Max = 100;
-                if (De100.Lancer() == 50)
+                De De100 = new(100);
+                
+                if (De100.Lancer() == 11)
                 {
-                    Console.WriteLine("... et récupère 10 PV");
+                    Console.WriteLine("... et récupère 5 PV");
                     PV += 5;
                 }
                 else

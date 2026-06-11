@@ -13,12 +13,10 @@ namespace Models.Unites
         public Dictionary<string, int> Butin { get; set; } = new()
         {
             {"Or", 0}, 
-            {"Peau", 0}, 
-            {"Griffes", 0},
-            {"Ailes", 0}, 
-            {"Viande", 0}, 
-            {"Crocs", 0}, 
-            {"Repas", 0}
+
+            {"Repas", 0},
+
+            {"Viande", 0 }
         };
 
         public void AttackMonstres() 
@@ -97,9 +95,42 @@ namespace Models.Unites
             }
         }
 
-        public void RecupererButinMonstre()
+        public void Loot(Monstre cible)
         {
+            // Test de garde
+            if(cible.EstEnVie)
+            {
+                // TODO : Erreur, la créature doit être mouru
+                return;
+            }
+        
+        
+            // Rappel : Dans un foreach c'est interdit de modifier la structure (ici supprimer éléments), il faut tout mettre à zero à la place
 
+            // foreach(KeyValuePair<string, int> element in cible.Butin) --> une facon de le faire :
+
+            while(cible.Hasloot) //On a creer une methode chez les monstres!!
+            {
+                // Le butin qu'on réucpere :
+                KeyValuePair<string, int> butin = cible.Butin.First(); 
+                // --->  KeyValuePair<> = var ; First() --> tant que le 1er élément existe on prend, et ca va s'arreter quand il n'y en aura plus. Car c'est un dictionnaire, on n'a pas d'index. 
+
+                string typeButin = butin.Key;
+                int valeurButin = butin.Value;
+
+                if(this.Butin.ContainsKey(typeButin))
+                {
+                    // Si on possède déjà le type de butin, on augmente sa valeur
+                    this.Butin[typeButin] += valeurButin;
+                }else
+                {
+                    // Si on ne l'a pas, on l'ajoute
+                    this.Butin.Add(typeButin, valeurButin);
+                }
+
+                // Suppression du butin sur la cible
+                cible.Butin.Remove(typeButin);
+            }
         }
     }
 }

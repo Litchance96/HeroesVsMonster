@@ -10,6 +10,7 @@ namespace Models.Unites.Jouables
         {
             get
             {
+             
                 return base.Force +1; 
             }
             
