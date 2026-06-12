@@ -6,6 +6,9 @@ namespace Models.Unites.Jouables
 {
     public class Humain : Heros
     {
+
+        public Humain(string nom) : base(nom) { }
+
         public override int Force
         {
             get
@@ -17,5 +20,7 @@ namespace Models.Unites.Jouables
         }
         public override int Endurance => base.Endurance +1; //Autre option d'écriture !! 
     
+
+
     }
 }

@@ -7,6 +7,12 @@ namespace Models.Unites.Jouables
 {
     public class Elf : Heros
     {
+        
+    
+        
+        public Elf(string nom) : base(nom) { }
+       
+
         public override int Endurance => base.Endurance + 3;
 
         public override int Force
@@ -42,7 +48,6 @@ namespace Models.Unites.Jouables
                 //{
                 //    return base.Force;
                 //}
-                // ----------------------- version Maude ----------------------------
             }
         }
 

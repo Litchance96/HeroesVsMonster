@@ -8,16 +8,34 @@ namespace Models.Unites
     public class Heros : Personnage
     {
 
-        public string? Nom;
+        public string Nom { get; init; }
 
-        public Dictionary<string, int> Butin { get; set; } = new()
+        // Le constructeur n'as pas besoin de faire " : base()" pour faire référence au ctor de "Personnage"
+        // car les constructeurs des class appellent automatiquement le constructeur parent sans paramétres?
+        // Ici on écrit seulement string nom en parametre car on veut que le hero nous renvoie que son nom quand on le créer.
+        public Heros(string nom)
         {
-            {"Or", 0}, 
+            this.Nom = nom;
+            this.Butin = new()
+            {
+            { "Or", 0} ,
 
-            {"Repas", 0},
+            { "Repas", 0},
 
-            {"Viande", 0 }
-        };
+            { "Viande", 0 }
+            }
+            ;
+
+        }
+
+        public Dictionary<string, int> Butin { get; private set; }
+        //{
+        //    {"Or", 0}, 
+
+        //    {"Repas", 0},
+
+        //    {"Viande", 0 }
+        //};
 
         public void AttackMonstres() 
         { 
@@ -26,13 +44,13 @@ namespace Models.Unites
 
         public void Repos()
         {
-            //TODO : peut etre envisager des pv max au dessus desquels on ne peut pas remonter, on va mettre 20 ici por etre sure : 
+            
             Console.WriteLine("Votre héro se repose...");
-            // Si en récuperent 10, je passe au dessus de 20, on ajoute plutot les pv manquants
+            
 
-            if(PV + 10 > 20)
+            if(PV + 10 > PVMax)
             {
-                PV += (20 - PV);
+                PV = PVMax;
             }
             //Sinon, on peut rajouter 10
             else
@@ -64,16 +82,17 @@ namespace Models.Unites
             {
                 Console.WriteLine("Votre héro se délecte d'un délicieux repas");
                 Butin["Repas"]--;
-                if (PV + 5 > 20)
-                {  PV += (20 - PV); }
-                else 
-                { PV += 5; }
+
+                //Il regagne le max qu'il peut ou 5 pv
+                PV = Math.Min(PV + 5, PVMax);
+
             }
             else
             {
                 Console.WriteLine("Votre héro ne possède pas de repas, il va devoir manger de la viande crue... Beurk.");
 
                 Butin["Viande"]--; //on enleve la viande de l'inventaire
+
                 int recuperation = Random.Shared.Next(-3, 4);
                 if (recuperation < 0)
                 {
@@ -83,14 +102,9 @@ namespace Models.Unites
                 else
                 {
                     // On regagne le max qu'on peut ou la récup
-                    if (PV + recuperation > 20) 
-                    {
-                        PV += 20 - PV;
-                    }
-                    else
-                    {
-                        PV += recuperation;
-                    }
+
+                    Console.WriteLine("Votre héro a trouvé une viande d'exception !");
+                    PV = Math.Min(PV + recuperation, PVMax);
                 }
             }
         }
@@ -128,8 +142,8 @@ namespace Models.Unites
                     this.Butin.Add(typeButin, valeurButin);
                 }
 
-                // Suppression du butin sur la cible
-                cible.Butin.Remove(typeButin);
+                // Suppression du butin sur la cible --> methode créee dans personnage !! 
+                cible.SupprimerButin(typeButin);
             }
         }
     }

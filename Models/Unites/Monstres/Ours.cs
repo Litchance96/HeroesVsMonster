@@ -7,14 +7,15 @@ namespace Models.Unites.Monstres
     public class Ours : Monstre
     {
         public override int Force => base.Force + 2;
-  
 
 
-        public int Peau { get; set; }
+        public Ours()
+        {
+            this.AjouterButin("Peau", De3.Lancer());
+            this.AjouterButin("Viande", De6.Lancer());
+            this.AjouterButin("Griffes", De4.Lancer()+1);
+        }
 
-        public int Viande { get; set; }
-
-        public int Griffes { get; set; }
 
     }
 

@@ -7,6 +7,13 @@ namespace Models.Unites.Jouables
     public class Nain : Heros
     {
         public override int Endurance => base.Endurance + 2;
- 
+
+        public Nain(string nom) : base(nom) { }
+
+
+
     }
+
+
+
 }

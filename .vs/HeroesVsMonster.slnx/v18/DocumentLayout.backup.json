@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CC443FA-3207-5D22-5ECD-05BE00CEE950}|HeroesVsMonster\\HeroesVsMonster.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\heroesvsmonster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CC443FA-3207-5D22-5ECD-05BE00CEE950}|HeroesVsMonster\\HeroesVsMonster.csproj|solutionrelative:heroesvsmonster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\personnages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\personnages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\outils\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\outils\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\jouables\\elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\jouables\\elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\loup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstres\\loup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\ours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstres\\ours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\jouables\\humain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\jouables\\humain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\bandits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,24 +23,40 @@
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\heros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\commun\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\commun\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\ours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstres\\ours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CC443FA-3207-5D22-5ECD-05BE00CEE950}|HeroesVsMonster\\HeroesVsMonster.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\heroesvsmonster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CC443FA-3207-5D22-5ECD-05BE00CEE950}|HeroesVsMonster\\HeroesVsMonster.csproj|solutionrelative:heroesvsmonster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\loup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstres\\loup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\monstres\\dragonnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\monstres\\dragonnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\outils\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\outils\\de.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\jouables\\nain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\jouables\\nain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\jouables\\humain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\jouables\\humain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\unites\\jouables\\elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\unites\\jouables\\elf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\commun\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\commun\\plateau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CC443FA-3207-5D22-5ECD-05BE00CEE950}|HeroesVsMonster\\HeroesVsMonster.csproj|c:\\users\\c.eriksen\\source\\repos\\heroesvsmonster\\heroesvsmonster\\heroesvsmonster.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,26 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Loup.cs",
-              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Loup.cs",
-              "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Loup.cs",
-              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Loup.cs",
-              "RelativeToolTip": "Models\\Unites\\Monstres\\Loup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T07:36:34.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Elf.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Jouables\\Elf.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Jouables\\Elf.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Jouables\\Elf.cs",
               "RelativeToolTip": "Models\\Unites\\Jouables\\Elf.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAowCYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T07:35:07.219Z",
               "EditorCaption": ""
@@ -110,92 +97,79 @@
               "RelativeDocumentMoniker": "Models\\Unites\\Monstre.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstre.cs",
               "RelativeToolTip": "Models\\Unites\\Monstre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wFMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T09:24:54.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Personnages.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Personnages.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Personnages.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Personnages.cs",
               "RelativeToolTip": "Models\\Unites\\Personnages.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T13:27:45.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "De.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Outils\\De.cs",
               "RelativeDocumentMoniker": "Models\\Outils\\De.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Outils\\De.cs",
               "RelativeToolTip": "Models\\Outils\\De.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T13:26:24.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ours.cs",
-              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Ours.cs",
-              "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Ours.cs",
-              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Ours.cs",
-              "RelativeToolTip": "Models\\Unites\\Monstres\\Ours.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T07:37:13.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Humain.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Jouables\\Humain.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Jouables\\Humain.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Jouables\\Humain.cs",
               "RelativeToolTip": "Models\\Unites\\Jouables\\Humain.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T07:34:52.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Bandits.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Bandits.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Bandits.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Bandits.cs",
               "RelativeToolTip": "Models\\Unites\\Monstres\\Bandits.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwCUAAACUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T07:37:02.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Heros.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Heros.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Heros.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Heros.cs",
               "RelativeToolTip": "Models\\Unites\\Heros.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvy4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T09:25:04.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Plateau.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Commun\\Plateau.cs",
               "RelativeDocumentMoniker": "Models\\Commun\\Plateau.cs",
@@ -208,33 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\HeroesVsMonster\\Program.cs",
               "RelativeDocumentMoniker": "HeroesVsMonster\\Program.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\HeroesVsMonster\\Program.cs",
               "RelativeToolTip": "HeroesVsMonster\\Program.cs",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAgwAgBAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAFUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T13:24:55.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Models.csproj",
-              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Models.csproj",
-              "RelativeDocumentMoniker": "Models\\Models.csproj",
-              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Models.csproj",
-              "RelativeToolTip": "Models\\Models.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-01T08:02:45.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "Nain.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Jouables\\Nain.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Jouables\\Nain.cs",
@@ -247,16 +208,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Dragonnet.cs",
               "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Dragonnet.cs",
               "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Dragonnet.cs",
               "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Dragonnet.cs",
               "RelativeToolTip": "Models\\Unites\\Monstres\\Dragonnet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T07:36:48.52Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loup.cs",
+              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Loup.cs",
+              "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Loup.cs",
+              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Loup.cs",
+              "RelativeToolTip": "Models\\Unites\\Monstres\\Loup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T07:36:34.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ours.cs",
+              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Ours.cs",
+              "RelativeDocumentMoniker": "Models\\Unites\\Monstres\\Ours.cs",
+              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Unites\\Monstres\\Ours.cs",
+              "RelativeToolTip": "Models\\Unites\\Monstres\\Ours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T07:37:13.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Models.csproj",
+              "DocumentMoniker": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Models.csproj",
+              "RelativeDocumentMoniker": "Models\\Models.csproj",
+              "ToolTip": "C:\\Users\\c.eriksen\\source\\repos\\HeroesVsMonster\\Models\\Models.csproj",
+              "RelativeToolTip": "Models\\Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-01T08:02:45.669Z"
             },
             {
               "$type": "Document",

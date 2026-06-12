@@ -11,39 +11,45 @@ namespace HeroesvsMonster
     internal class Program
     {
         static void Main(string[] args)
+
+
         {
+
+
+
+            
             #region Creation personnages
-            // Création d'un personnage (2 facons de faire)
+            //Création d'un personnage (2 facons de faire)
             Personnage lori = new Personnage();
             Personnage bobi = new();
 
-            // Points de vies
-            // lori.PV = 20;
-            // bobi.PV = 20;
+            //Points de vies
+            //lori.PV = 20;
+            //bobi.PV = 20;
             // On a gerer les points de vie dans le personnage (private set) pour eviter que les points de vie soient modifiés n'importe comment dans le code, on a donc creer une methode Frappe qui va gerer les points de vie.
             // Valeur par défaut dans le personnage + Encapsulation (private set) + Methode Frappe pour gerer les points de vie
 
             // Frappe
-            lori.Frappe(bobi);
+            //lori.Frappe(bobi);
 
-            Console.WriteLine("Lori a frappé Bobi, Bobi a maintenant " + bobi.PV + " points de vie tandis que Lori à toujours " + lori.PV + " points de vie.");
-            
-            Console.WriteLine("Un arbre tombe sur Bobi !");
-            //bobi.PV -= 4; // Problème car on a dit qu'on peut modfier les points de vie n'importe comment, on va donc creer une methode Frappe qui va gerer les points de vie.
+            //Console.WriteLine("Lori a frappé Bobi, Bobi a maintenant " + bobi.PV + " points de vie tandis que Lori à toujours " + lori.PV + " points de vie.");
 
-            bobi.SubitDegats(4);
-            bobi.SubitDegats(-4);
+            //Console.WriteLine("Un arbre tombe sur Bobi !");
+            ////bobi.PV -= 4; // Problème car on a dit qu'on peut modfier les points de vie n'importe comment, on va donc creer une methode Frappe qui va gerer les points de vie.
 
-            if (!bobi.EstEnVie) 
-            {
-                Console.WriteLine("Bobi est mort !");
-            }
-            
-            Console.WriteLine("Bobibi a maintenant " + bobi.PV + " points de vie.");
+            //bobi.SubitDegats(4);
+            //bobi.SubitDegats(-4);
 
-            Console.WriteLine("Appuyez sur n'importe qu'elle touche pour passer à l'exo suivant");
-            Console.ReadKey();
-            Console.Clear();
+            //if (!bobi.EstEnVie) 
+            //{
+            //    Console.WriteLine("Bobi est mort !");
+            //}
+
+            //Console.WriteLine("Bobibi a maintenant " + bobi.PV + " points de vie.");
+
+            //Console.WriteLine("Appuyez sur n'importe qu'elle touche pour passer à l'exo suivant");
+            //Console.ReadKey();
+            //Console.Clear();
             #endregion
 
 
@@ -88,14 +94,14 @@ namespace HeroesvsMonster
 
             Console.WriteLine("Creation 3 héros : ");
 
-            Humain humain = new();
-            humain.Nom = "JeanMi";
+            Humain humain = new("Jean Mi");
+            //name = "JeanMi";
 
-            Elf elf = new();
-            elf.Nom = "Lego Legolas";
+            Elf elf = new("Lego Legolas");
+            //elf.Nom = "Lego Legolas";
 
-            Nain nain = new();
-            nain.Nom = "Stoemp";
+            Nain nain = new("Stoemp");
+            //nain.Nom = "Stoemp";
 
             Console.WriteLine("1er héro");
             Console.WriteLine($"{humain.Nom} l'humain.");
@@ -111,7 +117,7 @@ namespace HeroesvsMonster
             Console.WriteLine($"Force : {elf.Force}");
             Console.WriteLine($"PV : {elf.PV}");
 
-            
+            Console.WriteLine();
 
             Console.WriteLine("3e héro");
             Console.WriteLine($"{nain.Nom} le nain.");
@@ -122,55 +128,55 @@ namespace HeroesvsMonster
             Console.WriteLine();
             Console.WriteLine("Création de 4 monstres :");
 
+
             Loup loup = new();
-            loup.Butin["Peau"] = 2;
-            loup.Butin["Crocs"] = 2;
-            loup.Butin.Add("Viande", 1); //On peut aussi écrire comme cela !
-
             Ours ours = new();
-            ours.Butin.Add("Peau", 4);
-            ours.Butin.Add("Griffes", 4);
-            ours.Butin.Add("Viande", 2);
-
             Dragonnet dragonnet = new();
-            dragonnet.Butin.Add("Peau", 8);
-            dragonnet.Butin.Add("Ailes", 2);
-            dragonnet.Butin.Add("Or", 1);
-
             Bandits bandit = new();
-            bandit.Butin.Add("Or", 50);
-            bandit.Butin.Add("Repas", 2);
-            bandit.Butin.Add("Viande", 2);
-            bandit.Butin.Add("Peau", 2);
-            bandit.Butin.Add("Aile", 1);
-            bandit.Butin.Add("Griffe", 2);
-            bandit.Butin.Add("Croc", 2);
+
+            Console.WriteLine();
+            AfficherDetailMonstre(loup);
+            Console.WriteLine();
+            AfficherDetailMonstre(dragonnet);
+            Console.WriteLine();
+            AfficherDetailMonstre(bandit);
+            Console.WriteLine();
+            AfficherDetailMonstre(ours);
+            Console.WriteLine();
 
 
 
-            Console.WriteLine("1e Monstre");
-            Console.WriteLine("Le loup :");
-            Console.WriteLine($"Endurance : {loup.Endurance}");
-            Console.WriteLine($"Force : {loup.Force}");
-            Console.WriteLine($"PV : {loup.PV}");
-            Console.WriteLine();
-            Console.WriteLine("2e Monstre ");
-            Console.WriteLine("L'ours :");
-            Console.WriteLine($"Endurance : {ours.Endurance}");
-            Console.WriteLine($"Force : {ours.Force}");
-            Console.WriteLine($"PV : {ours.PV}");
-            Console.WriteLine();
-            Console.WriteLine("3e Monstre ");
-            Console.WriteLine("Le dragonnet :");
-            Console.WriteLine($"Endurance : {dragonnet.Endurance}");
-            Console.WriteLine($"Force : {dragonnet.Force}");
-            Console.WriteLine($"PV : {dragonnet.PV}");
-            Console.WriteLine();
-            Console.WriteLine("4e Monstre ");
-            Console.WriteLine("Le Bandit :");
-            Console.WriteLine($"Endurance : {bandit.Endurance}");
-            Console.WriteLine($"Force : {bandit.Force}");
-            Console.WriteLine($"PV : {bandit.PV}");
+
+
+            //Console.WriteLine("1e Monstre -> Le loup : ");
+
+            //Console.WriteLine($"Endurance : {loup.Endurance}");
+            //Console.WriteLine($"Force : {loup.Force}");
+            //Console.WriteLine($"PV : {loup.PV}");
+            //Console.WriteLine("Son Butin :");
+            //foreach(KeyValuePair<string, int> elem in loup.Butin)
+            //{
+            //    Console.WriteLine($" - {elem.Key} : {elem.Value}");
+            //}
+
+            //Console.WriteLine();
+            //Console.WriteLine("2e Monstre -> L'ours :");
+
+            //Console.WriteLine($"Endurance : {ours.Endurance}");
+            //Console.WriteLine($"Force : {ours.Force}");
+            //Console.WriteLine($"PV : {ours.PV}");
+            //Console.WriteLine();
+            //Console.WriteLine("3e Monstre -> Le dragonnet :");
+
+            //Console.WriteLine($"Endurance : {dragonnet.Endurance}");
+            //Console.WriteLine($"Force : {dragonnet.Force}");
+            //Console.WriteLine($"PV : {dragonnet.PV}");
+            //Console.WriteLine();
+            //Console.WriteLine("4e Monstre -> Le Bandit : ");
+
+            //Console.WriteLine($"Endurance : {bandit.Endurance}");
+            //Console.WriteLine($"Force : {bandit.Force}");
+            //Console.WriteLine($"PV : {bandit.PV}");
 
 
             Console.WriteLine();
@@ -244,6 +250,9 @@ namespace HeroesvsMonster
             Console.WriteLine("Le nain se delecte d'un délicieux repas"); 
             nain.Manger();
             Console.WriteLine($" PV : {nain.PV}");
+            Console.WriteLine("Appuyez sur n'importe qu'elle touche pour passer à l'exo suivant");
+            Console.ReadKey();
+            Console.Clear();
 
             #endregion
             #region POTION
@@ -262,12 +271,33 @@ namespace HeroesvsMonster
             Console.WriteLine($"PV Bandit : {bandit.PV}");
             nain.Frappe(bandit);
 
+            Console.WriteLine("Appuyez sur n'importe qu'elle touche pour passer à l'exo suivant");
+            Console.ReadKey();
+            Console.Clear();
+
             #endregion
+
 
         }
 
+        static void AfficherDetailMonstre(Monstre monstre)
+        {
+                    
+        //Le loup, l'ours, le dragonnet et le bandit sont tous des Monstres
+        // -> Polymorphisme : Une variable "Monstre" peut contenir un des éléments
 
+        // Affichage du nom via le type de la classe
+            Console.WriteLine($"1e Monstre -> {monstre.GetType().Name} : ");
 
+            Console.WriteLine($"Endurance : {monstre.Endurance}");
+            Console.WriteLine($"Force : {monstre.Force}");
+            Console.WriteLine($"PV : {monstre.PV}");
+            Console.WriteLine("Son Butin :");
+            foreach (KeyValuePair<string, int> elem in monstre.Butin)
+            {
+                Console.WriteLine($" - {elem.Key} : {elem.Value}");
+            }
+        }
 
     }
 }
